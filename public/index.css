@@ -23,6 +23,46 @@ body {
   color:var(--main-gray);
 }
 
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--main-gray);
+  z-index: 10;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  margin-right: 24px;
+}
+
+@media (max-width: 600px) {
+  #navbar {
+    justify-content: center;
+  }
+
+  #navbar ul {
+    margin: 0;
+  }
+}
+
+#navbar a {
+  display: block;
+  text-decoration: none;
+  color: var(--main-white);
+  font-size: 1.6rem;
+  padding: 16px;
+}
+
+#navbar a:hover {
+  background-color: var(--main-white);
+  color: var(--main-gray);
+}
+
 #welcome-section {
   display: flex;
   flex-direction: column;
