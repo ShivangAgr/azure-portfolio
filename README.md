@@ -1,5 +1,7 @@
 # Build and Deploy your first portfolio site with Azure
 
+You can see the deployed sample website here: [https://jedi-portfolio.azurewebsites.net/](https://jedi-portfolio.azurewebsites.net/)
+
 These are the User Stories we are going to use to build our portfolio site today.
 
 1. Portfolio should have a **welcome section** with an id of `#welcome-section`.
